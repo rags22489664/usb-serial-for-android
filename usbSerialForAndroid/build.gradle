@@ -19,6 +19,16 @@ android {
     }
 }
 
+repositories {
+    maven {
+        url 'http://mangoautomation.net:9902/maven-repo/'
+    }
+}
+
+dependencies {
+    compile 'com.infiniteautomation:modbus4j:3.0.1'
+}
+
 group = "com.hoho.android"
 version = "0.2.0-SNAPSHOT"
 
